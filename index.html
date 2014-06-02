@@ -11,7 +11,7 @@
 	<script type="text/javascript" src = 'interact.js'></script>
 </head>
 <body>
-	<h1 id = 'header'>Quantum <span style = 'font-weight:900;'>Tic</span> Tac <span style = 'font-weight:900;'>Toe</span></h1>
+	<h1 id = 'header'>Quantum <span style = 'font-weight:900;'>Tic</span> Tac <span style = 'font-weight:900;'>Toe</span><br><span style = 'font-size:16px'>made By Jacckson Henry</span></h1>
 	<menu id = 'options'>
 		<ul>
 			<a href = '#howTo'><li id = 'howToB'> How to play </li></a>
@@ -47,10 +47,10 @@ options = document.getElementById('options')
 header = document.getElementById('header')
 h = header.offsetHeight
 
-var newDiv = document.createElement("div"); 
-newDiv.style.width = '100%'
-newDiv.style.height = h+'px'
-document.body.insertBefore(newDiv, options); 
+sections = document.getElementsByTagName('section');
+for (var i = 0; i < sections.length; i++) {
+	sections[i].style.height = screen.height+'px';
+};
 
 </script>
 </html>

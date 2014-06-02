@@ -44,7 +44,7 @@ h1,h2,h3,h4
 	
 	padding-top:40px;
 	padding-bottom:40px;
-	position: fixed;
+	/*position: fixed;*/
 	width:100%;
 	top:0px;
 	z-index:100;
@@ -53,10 +53,12 @@ h1,h2,h3,h4
 .game
 {
 	display: block;
-	background-color: rgba(255,255,255,.4);
+	background-color: rgba(255,255,255,.7);
 	width:94%;
 	margin:0px auto;
 	margin-top:10px;
+	position: relative;
+	top:15%;
 }
 
 #options ul
