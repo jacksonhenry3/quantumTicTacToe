@@ -27,10 +27,13 @@ body
 h1,h2,h3,h4
 {
 	text-align: center;
-	font-weight: 100;
-	font-family: 'Megrim';
+	font-weight: 200;
+	font-family: 'Roboto', sans-serif;
 	/*background-color: teal;*/
-
+	color:white;
+	padding-top:25px;
+	padding-bottom: 25px;
+	background-color: rgba(50,50,50,.15);
 	margin:0px;
 
 }
@@ -38,7 +41,7 @@ h1,h2,h3,h4
 #header
 {
 	background-color: #E1574C;
-	color:white;
+	
 	padding-top:40px;
 	padding-bottom:40px;
 	position: fixed;
@@ -47,18 +50,19 @@ h1,h2,h3,h4
 	z-index:100;
 }
 
-#game
+.game
 {
 	display: block;
 	background-color: #E1574C;
 	width:94%;
-	margin:10px auto;
+	margin:0px auto;
+	margin-top:10px;
 }
 
 #options ul
 {
-	font-family: 'Megrim';
-	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 	font-size: large;
 	list-style-type: none;
 	margin:0px;
@@ -75,7 +79,10 @@ h1,h2,h3,h4
 	color:white;
 
 }
-
+section
+{
+	padding-bottom:10px;
+}
 #howToB
 {
 	background-color: #3DB29F;
@@ -84,7 +91,7 @@ h1,h2,h3,h4
 #howTo
 {
 	width:100%;
-	height: 500px;
+	
 	background-color: #3DB29F;
 }
 #playComputerB
@@ -95,7 +102,7 @@ h1,h2,h3,h4
 #playComputer
 {
 	width:100%;
-	height: 500px;
+	
 	background-color: #27A6D1;
 }
 #playFriendB
@@ -106,7 +113,7 @@ h1,h2,h3,h4
 #playFriend
 {
 	width:100%;
-	height: 500px;
+	
 	background-color: #F0C75E;
 }
 

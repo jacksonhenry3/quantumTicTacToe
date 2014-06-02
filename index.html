@@ -7,11 +7,11 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 
-	<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,900' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src = 'interact.js'></script>
 </head>
 <body>
-	<h1 id = 'header'>Quantum TicTac Toe</h1>
+	<h1 id = 'header'>Quantum <span style = 'font-weight:900;'>Tic</span> Tac <span style = 'font-weight:900;'>Toe</span></h1>
 	<menu id = 'options'>
 		<ul>
 			<a href = '#howTo'><li id = 'howToB'> How to play </li></a>
@@ -19,20 +19,28 @@
 			<a href = '#playFriend'><li id = 'playFriendB'> play a friend </li></a>
 		</ul>
 	</menu>
+
 	<section id = 'howTo'>
+		<h2>How To Play</h2>
 	</section>
 	<section id = 'playComputer'>
+		<h2>Play A Computer</h2>
+		<svg class = 'game'>
+		</svg>
 	</section>
 	<section id = 'playFriend'>
+		<h2>Play A Friend</h2>
+		<svg class = 'game'>
+		</svg>
 	</section>
-	<!-- <svg id = 'game'>
-	</svg> -->
+	
 </body>
 
 <script type="text/javascript">
-// game = document.getElementById('game')
-// w = game.offsetWidth
-// game.style.height = w
+game = document.getElementsByTagName('svg')
+w = game[0].offsetWidth
+game[0].style.height = w
+game[1].style.height = w
 
 options = document.getElementById('options')
 header = document.getElementById('header')
