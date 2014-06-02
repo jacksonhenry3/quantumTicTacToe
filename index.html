@@ -12,24 +12,34 @@
 	<h1 id = 'header'>Quantum TicTac Toe</h1>
 	<menu id = 'options'>
 		<ul>
-			<li id = 'howTo'> How to play </li>
-			<li id = 'playComputer'> Play computer</li>
-			<li id = 'playFriend'> play a friend </li>
+			<a href = '#howTo'><li id = 'howToB'> How to play </li></a>
+			<a href = '#playComputer'><li id = 'playComputerB'> Play computer</li></a>
+			<a href = '#playFriend'><li id = 'playFriendB'> play a friend </li></a>
 		</ul>
 	</menu>
-	<svg id = 'game'>
-	</svg>
+	<section id = 'howTo'>
+	</section>
+	<section id = 'playComputer'>
+	</section>
+	<section id = 'playFriend'>
+	</section>
+	<!-- <svg id = 'game'>
+	</svg> -->
 </body>
 
 <script type="text/javascript">
-game = document.getElementById('game')
-w = game.offsetWidth
-game.style.height = w
+// game = document.getElementById('game')
+// w = game.offsetWidth
+// game.style.height = w
 
 options = document.getElementById('options')
 header = document.getElementById('header')
 h = header.offsetHeight
-options.style.top = h+'px'
+
+var newDiv = document.createElement("div"); 
+newDiv.style.width = '100%'
+newDiv.style.height = h+'px'
+document.body.insertBefore(newDiv, options); 
 
 </script>
 </html>
