@@ -1,0 +1,95 @@
+html,body
+{
+	margin:0px;
+	padding:0px;
+}
+/*red
+E1574C
+
+green
+3DB29F
+
+yellow
+27A6D1
+
+blue
+F0C75E*/
+body
+{
+	background-color:#EFEFEF;
+}
+
+h1,h2,h3,h4
+{
+	text-align: center;
+	font-weight: 100;
+	font-family: 'Megrim';
+	/*background-color: teal;*/
+
+	margin:0px;
+
+}
+
+#header
+{
+	background-color: #E1574C;
+	color:white;
+	padding-top:40px;
+	padding-bottom:40px;
+	position: fixed;
+	width:100%;
+	top:0px;
+}
+
+#game
+{
+	display: block;
+	/*background-color: yellow;*/
+	width:94%;
+	margin:10px auto;
+}
+
+#options ul
+{
+	font-family: 'Megrim';
+	font-weight: bold;
+	font-size: large;
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	text-align: center;
+}
+
+#options ul li 
+{
+	margin:0px;
+	padding: 20px;
+	/*background-color: orange;*/
+	margin:10px;
+	color:white;
+
+}
+
+#howTo
+{
+	background-color: #3DB29F;
+	box-shadow:3px 3px 0 #2CA18E;
+}
+#playComputer
+{
+	background-color: #27A6D1;
+	box-shadow:3px 3px 0 #1695C0;
+}
+#playFriend
+{
+	background-color: #F0C75E;
+	box-shadow:3px 3px 0 #E0B64D;
+}
+
+#options
+{
+	/*background-color: blue;*/
+	position: relative;
+	margin:0px;
+	padding:0px;
+}
